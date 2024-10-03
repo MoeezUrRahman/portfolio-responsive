@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moeez's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+
+<body>  
+    <header class="header">
+        <a href="#home" class="logo" id="name">YOUR NAME</a>
+        <nav class="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#timeline" class="nav-link">Timeline</a>
+            <a href="#project" class="nav-link">Projects</a>
+            <a href="#cont" class="nav-link">Contact Me</a>
+        </nav>
+    </header>
+    
+
+    <section class="home" id="home">
+        <video class="video-background" id="vid" autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        
+        <div class="home-content">
+            <h1><span class="span-text">YOUR NAME</span></h1>
+            <h3  class="typing-text"><span></span></h3>
+            <div class="buttons">
+                <a href="" target="_blank">Visit Github</a>
+                <a href=""  target="_blank">Open CV</a>
+            </div>
+        </div>
+    </section>
+
+    <hr class="ender">
+
+    <section id="timeline" class="timeline">
+        <h3 class="journey">Timeline Of Experience and Projects</h3>
+        <div class="horizontol-line"></div>
+
+        <div class="box">
+            <div class="vertical-line">
+                <img class="image" src="" alt="PUT IMAGE OF UR PROJECT">
+                <p class="timeline-text">PROJECT-1</p>
+            </div>
+            <div class="vertical-line">
+                <img class="image" src="" alt="PUT IMAGE OF UR PROJECT">
+                <p class="timeline-text">PROJECT-2</p>
+            </div>
+            <div class="vertical-line">
+                <img class="image" src="" alt="PUT IMAGE OF UR PROJECT">
+                <p class="timeline-text">PROJECT-3</p>
+            </div>
+            <div class="vertical-line">
+                <img class="image" src="" alt="PUT IMAGE OF UR PROJECT">
+                <p class="timeline-text">PROJECT-3</p>
+            </div>
+            <div class="vertical-line">
+                <img class="image" src="" alt="PUT IMAGE OF UR PROJECT">
+                <p class="timeline-text">PROJECT-4</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="ender">
+
+    <!-- ONCE YOU ARE DONE WITH ADDING UNADDED ELEMENTS CSS WILL ADJUST DONT WORRY -->
+
+    
+    <section class="projects" id="project">
+        <h3 class="heading">Projects</h3>
+        <div class="container">
+            <div class="project-card">
+                <img src="" alt="PUT IMAGE HERE">
+                <hr class="line">
+                <p class="name">PROJECT NAME AND TECH</p>
+                <p class="one-line">ONE LINER INTRO ABOUT PROJECT</p>
+                <div class="github-button">
+                    <a href="" target="_blank">Visit Github</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="" alt="PUT IMAGE HERE">
+                <hr class="line">
+                <p class="name">PROJECT NAME AND TECH</p>
+                <p class="one-line">ONE LINER INTRO ABOUT PROJECT</p>
+                <div class="github-button">
+                    <a href="" target="_blank">Visit Github</a>
+            </div>
+            <div class="project-card">
+                <img src="" alt="PUT IMAGE HERE">
+                <hr class="line">
+                <p class="name">PROJECT NAME AND TECH</p>
+                <p class="one-line">ONE LINER INTRO ABOUT PROJECT</p>
+                <div class="github-button">
+                    <a href="" target="_blank">Visit Github</a>
+            </div>
+        </div>
+    </section>
+    <hr class="ender">
+    <section class="contact" id="cont">
+        <div class="social-media">
+            <h3>Contact Me</h3>
+            <a href="" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="" target="_blank"><i class='bx bxl-gmail' ></i></a>
+            <a href="" target="_blank"><i class='bx bxl-instagram'></i></a>
+        </div>
+
+    </section>
+
+    <script>
+        if ('scrollRestoration' in history) {
+          history.scrollRestoration = 'manual';
+        }
+      
+        window.addEventListener('beforeunload', function() {
+          window.scrollTo(0, 0);
+        });
+      
+        window.addEventListener('DOMContentLoaded', function() {
+          setTimeout(function() {
+            window.scrollTo(0, 0);
+          }, 100); // Ensure the page is fully rendered
+        });
+      </script>
+      
+      
+</body>
+
+</html>
